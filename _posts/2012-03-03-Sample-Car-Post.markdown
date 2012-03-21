@@ -6,9 +6,8 @@ category: more
 
 <div class="row">
 	<div class="span3 columns">
-	  <h3>About this topic</h3>	  	
-	  <br />
-	  <h3>Topic buzz</h3>
+	
+	  <h3>Online Buzz</h3>
 	  <p>What others are thinking. Add to the conversation and generate some chatter.</p>
 	  <p><a href="https://twitter.com/share" class="twitter-share-button" data-via="kevingailey">Tweet</a></p>
 	  <p><g:plusone size="medium"></g:plusone></p>	
