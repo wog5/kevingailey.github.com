@@ -5,6 +5,10 @@ category: king
 ---
 
 
+### Hello!!
+
+This is purely **A TEST**
+
 			/* * * DON'T EDIT BELOW THIS LINE * * */
 			(function() {
 				var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
