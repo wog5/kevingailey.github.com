@@ -8,34 +8,34 @@ body {
   font-size: 1.5em;
   line-height:1.3em;
   font-family: 'Caudex', serif;
-  font-color: #2B2E2E;
+  font-color: black;
   -webkit-font-smoothing: antialiased;
 }
 
 a {
-  font-color:#2B2E2E;
+  font-color:#346B9A;
   text-decoration:none;
 }
 
 a:-webkit-any-link {
-  color: #2B2E2E;
+  color: #346B9A;
   text-decoration: underline;
   cursor: auto;
 }
 
 a:link {
-  font-color:#2B2E2E;
+  font-color:#346B9A;
   text-decoration:none;
 }
 
 
 a:visited {
-  font-color:#2B2E2E;
+  font-color:#346B9A;
   text-decoration:underline;
 }
 
 a:hover {
-  font-color:#2B2E2E;
+  font-color:#346B9A;
   text-decoration:underline;
 }
 
@@ -50,7 +50,7 @@ h2 {
 
 img {
   border-radius: 1em;
-  border: 4px solid #2B2E2E;
+  border: 4px solid #346B9A;
 }
 
 ul {
@@ -98,3 +98,10 @@ p.section {
   display:inline;
   font-size:.8em;
 }
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
