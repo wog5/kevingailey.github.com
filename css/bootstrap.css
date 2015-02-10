@@ -113,11 +113,11 @@ body {
   background-color: #ffffff;
 }
 a {
-  color: #346B9A;
+  color: #ae4b33;
   text-decoration: none;
 }
 a:hover {
-  color: #346B9A;
+  color: #ae4b33;
   text-decoration: underline;
 }
 .row {
@@ -307,7 +307,7 @@ h5,
 h6 {
   margin: 0;
   font-weight: bold;
-  color: #346B9A;
+  color: #333333;
   text-rendering: optimizelegibility;
 }
 h1 small,

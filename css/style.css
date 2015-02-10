@@ -13,29 +13,29 @@ body {
 }
 
 a {
-  font-color:#346B9A;
+  font-color:#ae4b33;
   text-decoration:none;
 }
 
 a:-webkit-any-link {
-  color: #346B9A;
+  color: #ae4b33;
   text-decoration: underline;
   cursor: auto;
 }
 
 a:link {
-  font-color:#346B9A;
+  font-color:#ae4b33;
   text-decoration:none;
 }
 
 
 a:visited {
-  font-color:#346B9A;
+  font-color:#ae4b33;
   text-decoration:underline;
 }
 
 a:hover {
-  font-color:#346B9A;
+  font-color:#ae4b33;
   text-decoration:underline;
 }
 
@@ -50,7 +50,7 @@ h2 {
 
 img {
   border-radius: 1em;
-  border: 4px solid #346B9A;
+  border: 4px solid #ae4b33;
 }
 
 ul {
