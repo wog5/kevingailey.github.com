@@ -1,16 +1,16 @@
 	<div id="W5player">
 		<h2>{{ page.title }}</h2><br />
-		<button type="button" onclick="aud_play_pause()"><img src="{{ page.art }}" width="250" heigth="250"/><br /></button>
-		<audio preload="auto" controls src="{{ page.mp3 }}">
+		<a href="javascript:void(0);" onclick="W5play()"><img src="{{ page.art }}" width="250" heigth="250"/><br /></a>
+		<audio id="W5audio" preload="auto" controls src="{{ page.mp3 }}" width="250">
 </audio>
 	</div>
 	<script>
-	function aud_play_pause() {
-	  var myAudio = document.getElementById("myAudio");
-	  if (myAudio.paused) {
-	    myAudio.play();
+	function W5play() {
+	  var W5a = document.getElementById("W5audio");
+	  if (W5a.paused) {
+	    W5a.play();
 	  } else {
-	    myAudio.pause();
+	    W5a.pause();
 	  }
 	}
 	</script>
