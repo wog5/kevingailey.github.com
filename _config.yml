@@ -9,6 +9,8 @@ markdown: rdiscount
 # enables SmartyPants (nice curly quotation marks, em/en dashes, elipses, etc):
 rdiscount:
   extensions: [smart]
-name: ON2FM  
-description: A WOG5 Production
+name: WOG5FM  
+description: A New Radio Production For A New Generation
 url: http://wog5.github.io
+rss: http://wog5.github.io/feed.xml
+logo: http://wog5.github.io/img/W5-lights.png
