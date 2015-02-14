@@ -20,4 +20,4 @@ collections:
     output: true
     permalink: /t/:path/
   FM:
-	 permalink: /f/:path/ 
+	permalink: /f/:path/ 
