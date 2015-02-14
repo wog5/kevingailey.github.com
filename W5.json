@@ -1,0 +1,13 @@
+{
+	"projects": [
+		{% for collection in site.collections.my_work.docs %}
+		{
+			"id": {{forloop.index}},
+			"title": {{collection.title | jsonify}},
+			"url": {{collection.external_url | jsonify}},
+			"content": {{collection.output | jsonify}},
+			"skills": {{collection.skills | jsonify}}
+		}{% if forloop.rindex0 > 0 %},{% endif %}
+		{% endfor %}
+	]
+}

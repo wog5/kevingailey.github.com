@@ -10,7 +10,14 @@ markdown: rdiscount
 rdiscount:
   extensions: [smart]
 name: WOG5FM  
-description: A New Radio Production For A New Generation
-url: http://wog5.github.io
-rss: http://wog5.github.io/feed.xml
-logo: http://wog5.github.io/img/W5-lights.png
+description: A New Production For A New Generation
+url: http://kevingailey.com
+rss: http://kevingailey.com/feed.xml
+logo: http://kevingailey.com/img/W5-lights.png
+
+collections:
+  TV:
+    output: true
+    permalink: /t/:path/
+  FM:
+	 permalink: /f/:path/ 
