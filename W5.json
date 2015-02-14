@@ -1,6 +1,6 @@
 {
 	"projects": [
-		{% for collection in site.collections.my_work.docs %}
+		{% for collection in site.tv %}
 		{
 			"id": {{forloop.index}},
 			"title": {{collection.title | jsonify}},
