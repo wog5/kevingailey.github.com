@@ -17,7 +17,4 @@ logo: http://kevingailey.com/img/W5-lights.png
 
 collections:
   TV:
-    output: true
-    permalink: /t/:path/
   FM:
-	permalink: /f/:path/ 
