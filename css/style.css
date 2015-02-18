@@ -13,29 +13,29 @@ body {
 }
 
 a {
-  font-color:#ae4b33;
+  font-color:#6dbac9;
   text-decoration:none;
 }
 
 a:-webkit-any-link {
-  color: #ae4b33;
+  color: #6dbac9;
   text-decoration: underline;
   cursor: auto;
 }
 
 a:link {
-  font-color:#ae4b33;
+  font-color:#6dbac9;
   text-decoration:none;
 }
 
 
 a:visited {
-  font-color:#ae4b33;
+  font-color:#6dbac9;
   text-decoration:underline;
 }
 
 a:hover {
-  font-color:#ae4b33;
+  font-color:#6dbac9;
   text-decoration:underline;
 }
 
@@ -50,7 +50,7 @@ h2 {
 
 img {
   border-radius: 1em;
-  border: 4px solid #ae4b33;
+  border: 4px solid #6dbac9;
 }
 
 ul {
