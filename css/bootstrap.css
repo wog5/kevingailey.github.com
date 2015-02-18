@@ -113,12 +113,12 @@ body {
   background-color: #ffffff;
 }
 a {
-  color: #6dbac9;
-  text-decoration: none;
+  color: #000000;
+  text-decoration: underline;
 }
 a:hover {
   color: #6dbac9;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .row {
   margin-left: -20px;
