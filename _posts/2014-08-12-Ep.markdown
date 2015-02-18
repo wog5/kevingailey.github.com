@@ -1,0 +1,23 @@
+---
+layout: podcasts
+title: ON2 - Episode 2
+category: on2fm
+mp3: http://recordings.talkshoe.com/TC-134794/TS-887923.mp3
+art: http://wog5.github.io/img/itunes.png
+length: 20089050
+ad: Harry's
+adlink: http://harrys.com
+---
+
+## WOG5FM EPISODE2
+
+- Hosted by: hybrid
+- Title: EPISODE2 - WOG5FM
+- Time: 08/12/2014 03:45 PM EDT
+- NFL Fantasy Follow Up 
+- NFL Preseason 
+- KD out of FIBA 
+- PG24 = PG13 
+- Love to Cleveland 
+- Wiggins Role in Minnesotta 
+- NCAA New Rules

@@ -1,0 +1,21 @@
+---
+layout: podcasts
+title: ON2 - Episode 3
+category: on2fm
+mp3: http://recordings.talkshoe.com/TC-134794/TS-890183.mp3
+art: http://wog5.github.io/img/itunes.png
+length: 9684662
+ad: Harry's
+adlink: http://harrys.com
+---
+
+## WOG5FM EPISODE3
+
+- Hosted by: hybrid
+- Title: EPISODE3 WOG5FM
+- Time: 08/19/2014 09:50 PM EDT
+- Episode Notes: 
+- Clippers Sold. 
+- PG Injury Update. 
+- Brittney Griner Engaged. 
+- New NASCAR rules
