@@ -1,6 +1,6 @@
 ---
 layout: podcasts
-title: ON2 - Episode X - A New Draft - FANTASYDRAFT14
+title: ON2 - Episode X - FANTASYDRAFT14
 category: on2fm
 mp3: http://recordings.talkshoe.com/TC-134794/TS-884982.mp3
 art: http://wog5.github.io/img/itunes.png
