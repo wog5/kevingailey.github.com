@@ -114,11 +114,11 @@ body {
 }
 a {
   color: #000000;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
   color: #6dbac9;
-  text-decoration: none;
+  text-decoration: underline;
 }
 .row {
   margin-left: -20px;
