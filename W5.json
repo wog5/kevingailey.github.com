@@ -2,7 +2,7 @@
 ---
 {
 	"productions": [
-		{% for post in site.posts %}
+		{% for post in site.posts  %}
 		{
 			"id": {{forloop.index}},
 			"title": {{post.title | jsonify}},
@@ -12,3 +12,5 @@
 		{% endfor %}
 	]
 }
+
+

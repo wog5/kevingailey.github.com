@@ -1,10 +1,10 @@
 ---
 ---
 [
-{% for item in site.p %}
+{% for post in site.posts  %}
   {% include post.json %},
 {% endfor %}
-{% for item in site.posts limit:200 %}
+{% for item in site.categories.blog limit:200 %}
   {% include post.json %},
 {% endfor %}
 false
