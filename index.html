@@ -11,14 +11,16 @@ title: "WOG5 Studios."
 		<div class="span4 columns">
 			<h2>WOG5 Podcasts &#128175; </h2>
   		  <hr width="70%" /><br /><br />
-			<br />
 			  {% for post in site.posts %}	
 			  <h3> &#128266; <a href="{{ post.url }}">{{ post.title }} </a></h3><br />
 			  {% endfor %}
+			  {% for post in site.posts %}	
 	  		  <hr width="70%" /><br /><br />
 		      {% if page.feature == 'W5' %}
 			  <h3> &#128266; <a href="{{ post.url }}">{{ post.title }} </a></h3><br />
 			  {% endif %}
+			  {% endfor %}
+			  
 		</div>		
 		
 		<div class="span4 columns">
