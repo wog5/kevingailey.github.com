@@ -13,7 +13,7 @@
 		false
 	]
 	"on2fm": [
-	{% for item in site.categories.on2 %}
+	{% for item in site.category.on2 %}
 	"id": {{forloop.index}},
 	"title": {{post.title | jsonify}},
 	"mp3": {{post.mp3 | jsonify}},
