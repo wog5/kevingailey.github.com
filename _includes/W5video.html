@@ -1,0 +1,16 @@
+	<div id="W5player">
+		<h2>{{ page.title }}</h2><br />
+		<a href="javascript:void(0);" onclick="W5play()"><img src="{{ page.art }}" width="250" heigth="250"/><br /></a>
+		<audio id="W5audio" preload="auto" controls src="{{ page.mp3 }}" width="100%">
+</audio>
+	</div>
+	<script>
+	function W5play() {
+	  var W5a = document.getElementById("W5audio");
+	  if (W5a.paused) {
+	    W5a.play();
+	  } else {
+	    W5a.pause();
+	  }
+	}
+	</script>
