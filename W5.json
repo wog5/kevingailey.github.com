@@ -6,7 +6,7 @@
 		{
 			"id": {{forloop.index}},
 			"title": {{post.title | jsonify}},
-			"url": {{post.permalink | jsonify}},
+			"url": {{post.URL | jsonify}},
 		}{% if forloop.rindex0 > 0 %},{% endif %}
 		{% endfor %}
 		false

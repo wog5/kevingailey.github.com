@@ -9,7 +9,7 @@ markdown: rdiscount
 # enables SmartyPants (nice curly quotation marks, em/en dashes, elipses, etc):
 rdiscount:
   extensions: [smart]
-name: WOG5FM  
+name: WOG5  
 description: A New Production For A New Generation
 url: http://kevingailey.com
 rss: http://kevingailey.com/feed.xml
