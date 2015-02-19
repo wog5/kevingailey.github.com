@@ -1,12 +1,13 @@
+---
+---
 {
-	"projects": [
-		{% for collection in site.tv %}
+	"productions": [
+		{% for post in site.posts %}
 		{
 			"id": {{forloop.index}},
-			"title": {{collection.title | jsonify}},
-			"url": {{collection.external_url | jsonify}},
-			"content": {{collection.output | jsonify}},
-			"skills": {{collection.skills | jsonify}}
+			"title": {{post.title | jsonify}},
+			"url": {{post.external_url | jsonify}},
+			"ad": {{post.ad | jsonify}},
 		}{% if forloop.rindex0 > 0 %},{% endif %}
 		{% endfor %}
 	]
