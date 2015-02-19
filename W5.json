@@ -7,7 +7,6 @@
 			"id": {{forloop.index}},
 			"title": {{post.title | jsonify}},
 			"url": {{post.permalink | jsonify}},
-			"ad": {{post.ad | jsonify}},
 		}{% if forloop.rindex0 > 0 %},{% endif %}
 		{% endfor %}
 		false
