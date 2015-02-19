@@ -28,7 +28,7 @@
 		<itunes:owner>kg@kevingailey.com</itunes:owner>
 		<itunes:explicit>yes</itunes:explicit>
 		<itunes:category text="Sports" />
-		<itunes:image href="http://wog5.github.io/img/itunes.png"/>
+		<itunes:image href="http://kevingailey.com/img/itunes.png"/>
 		
 	</channel>
 </rss>
