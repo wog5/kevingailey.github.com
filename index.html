@@ -11,8 +11,11 @@ title: "WOG5 Studios."
 		<div class="span4 columns">
 			<h2>WOG5 Podcasts &#128175; </h2>
   		  <hr width="70%" /><br /><br />
-			  
 			  {% for post in site.posts %}	
+			  <h3> <a href="{{ post.url }}">{{ post.title }} </a></h3><br />
+			  {% endfor %}
+			  {% for post in site.posts %}	
+	  		  <hr width="70%" /><br /><br />
 		      {% if page.category == 'on2fm' %}
 			  <h3> &#128266; <a href="{{ post.url }}">{{ post.title }} </a></h3><br />
 			  {% endif %}
@@ -30,9 +33,6 @@ title: "WOG5 Studios."
 		  		  <p>WOG5 started as a small idea on the balcony of <a href="http://kevingailey.com">KG's</a> apartment. He took a pessimistic view of the current Sports Media landscape. From podcasting, to full length films and plenty of design work in between WOG5 has became a reality for this visionary. </p><br />
 
 		  <br/><hr width="70%" /><br/>
-		  {% for post in site.posts %}	
-		  <h3> <a href="{{ post.url }}">{{ post.title }} </a></h3><br />
-		  {% endfor %}
 		</div>		
 	</div>
 </div>
