@@ -16,9 +16,9 @@ rss: http://kevingailey.com/feed.xml
 logo: http://kevingailey.com/img/W5-lights.png
 
 collections:
--  TV
-	category: video
-	output: true
--  FM
-	category: audio
-	output: true
+	TV:
+		category: video
+		output: true
+	FM:
+		category: audio
+		output: true
