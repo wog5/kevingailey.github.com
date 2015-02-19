@@ -1,7 +1,7 @@
 ---
 ---
 [
-{% for item in site.posts %}
+{% for post in site.posts %}
   {% include post.json %},
 {% endfor %}
 false
