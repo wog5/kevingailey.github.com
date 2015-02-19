@@ -6,11 +6,25 @@
 		{
 			"id": {{forloop.index}},
 			"title": {{post.title | jsonify}},
-			"url": {{post.external_url | jsonify}},
+			"url": {{post.permalink | jsonify}},
 			"ad": {{post.ad | jsonify}},
 		}{% if forloop.rindex0 > 0 %},{% endif %}
 		{% endfor %}
+		false
 	]
+	"on2fm": [
+	{% for item in site.categories.on2 %}
+	"id": {{forloop.index}},
+	"title": {{post.title | jsonify}},
+	"mp3": {{post.mp3 | jsonify}},
+	"length": {{post.length | jsonify}},
+	"art": {{post.art | jsonify}},
+	"url": {{post.permalink | jsonify}},
+	"ad": {{post.ad | jsonify}},
+}{% if forloop.rindex0 > 0 %},{% endif %}
+{% endfor %}
+false
+]
 }
 
 
