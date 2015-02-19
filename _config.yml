@@ -14,11 +14,3 @@ description: A New Production For A New Generation
 url: http://kevingailey.com
 rss: http://kevingailey.com/feed.xml
 logo: http://kevingailey.com/img/W5-lights.png
-
-collections:
-	TV:
-		category: video
-		output: true
-	FM:
-		category: audio
-		output: true
