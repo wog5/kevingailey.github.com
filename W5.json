@@ -1,7 +1,7 @@
 ---
 ---
 {
-	"productions": [
+	"posts": [
 		{% for post in site.posts  %}
 		{
 			"id": {{forloop.index}},
