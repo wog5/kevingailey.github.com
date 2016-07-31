@@ -6,7 +6,6 @@ pygments: false
 lsi: false
 permalink: /:year/:month/:day/:title.html
 #paginate: 10
-markdown: rdiscount
 name: PlexPortal  
 description: Plex Portal by KG
 url: http://kevingailey.com
