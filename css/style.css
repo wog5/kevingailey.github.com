@@ -8,7 +8,8 @@ body {
   font-size: 1.5em;
   line-height:1.3em;
   font-family: Georgia, serif;
-  font-color: black;
+  font-color: white;
+  background: #3F4245;
   -webkit-font-smoothing: antialiased;
 }
 

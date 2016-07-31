@@ -9,8 +9,8 @@ markdown: rdiscount
 # enables SmartyPants (nice curly quotation marks, em/en dashes, elipses, etc):
 rdiscount:
   extensions: [smart]
-name: WOG5  
-description: A New Production For A New Generation
+name: PlexPortal  
+description: Plex Portal by KG
 url: http://kevingailey.com
 rss: http://kevingailey.com/feed.xml
 logo: http://kevingailey.com/img/W5-lights.png
