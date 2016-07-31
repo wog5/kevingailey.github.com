@@ -1,14 +1,12 @@
 auto: true
 server: true
+markdown: kramdown
 server_port: 3000
 pygments: false
 lsi: false
 permalink: /:year/:month/:day/:title.html
 #paginate: 10
 markdown: rdiscount
-# enables SmartyPants (nice curly quotation marks, em/en dashes, elipses, etc):
-rdiscount:
-  extensions: [smart]
 name: PlexPortal  
 description: Plex Portal by KG
 url: http://kevingailey.com
