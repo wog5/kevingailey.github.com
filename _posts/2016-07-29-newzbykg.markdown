@@ -1,8 +1,8 @@
+--- 
+layout: newz 
+title: Newz byKG: Links, Tutorials, Tips, Video & More 
 ---
-layout: newz
-title: Newz and Linkz byKG
-category: newzbykg
----
+
 <a href="http://cordcuttersnews.com/everything-coming-hulu-august-2016/">Here is Everything Coming to Hulu in August 2016</a> 
  <br />
  <a href="http://cordcuttersnews.com/everything-coming-amazon-prime-video-august-2016/">Here is Everything Coming to Amazon Prime Video in August 2016</a>  
